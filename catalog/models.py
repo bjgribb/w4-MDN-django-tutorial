@@ -87,7 +87,4 @@ class Author(models.Model):
         return f'{self.last_name}, {self.first_name}'
 
 
-#Define the admin class
-class AuthorAdmin(admin.ModelAdmin):
-    pass
 
